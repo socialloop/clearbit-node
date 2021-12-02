@@ -1,5 +1,5 @@
 {
-  "name": "clearbit",
+  "name": "@socialloop/clearbit",
   "version": "1.3.5",
   "description": "Client for Clearbit.co business intelligence APIs",
   "main": "./src",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clearbit/clearbit-node.git"
+    "url": "git+https://github.com/clearbit/clearbit-node.git"
   },
   "keywords": [
     "clearbit",
@@ -40,5 +40,8 @@
     "nock": "0.42",
     "sinon": "1",
     "yargs": "1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
